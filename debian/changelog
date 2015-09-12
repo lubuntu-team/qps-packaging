@@ -1,5 +1,5 @@
-qps (1.10.16-1) unstable; urgency=low
+qps (1.10.16+20150823-1) unstable; urgency=low
 
-  * Initial Release ()
+  * Initial Release (Closes: #795697)
 
- -- Alf Gaida <agaida@siduction.org>  Sat, 14 Mar 2015 16:02:20 +0100
+ -- Alf Gaida <agaida@siduction.org>  Sun, 06 Sep 2015 02:17:51 +0200
