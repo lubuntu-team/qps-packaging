@@ -1,3 +1,11 @@
+qps (1.10.16+20150823-2) UNRELEASED; urgency=medium
+
+  * Fixed licenses for qttableview.* and qiconloader.*
+  * Use -Wl,--as-needed to reduce dependencies
+  * wait for pending upstream changes
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 24 Sep 2015 21:58:48 +0200
+
 qps (1.10.16+20150823-1) unstable; urgency=medium
 
   * Initial Release (Closes: #795697)
