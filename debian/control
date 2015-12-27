@@ -22,15 +22,3 @@ Depends: ${shlibs:Depends},
          ${misc:Depends}
 Description: Qt process manager
  Qt process manager ported to Qt5
-
-Package: qps-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-         qps (= ${binary:Version})
-Description: Qt process manager (debug)
- Qt process manager ported to Qt5
- .
- This package contains debugging symbols for qps.
