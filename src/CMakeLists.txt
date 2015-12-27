@@ -1,6 +1,7 @@
 
 set(SOURCES	
  	proc.cpp 
+    qpsapp.cpp
 	qps.cpp
     screenshot.cpp
 	pstable.cpp 
@@ -14,6 +15,14 @@ set(SOURCES
 	lookup.cpp 
 	details.cpp 
 	command.cpp 
+    commandutils.cpp
+    commandmodel.cpp
+    commanddialog.cpp
+    checkboxdelegate.cpp
+    execwindow.cpp
+    watchcond.cpp
+    listmodel.cpp
+    watchdogdialog.cpp
 	misc.cpp 
 	trayicon.cpp 
 	htable.cpp
@@ -23,6 +32,7 @@ set(SOURCES
 )
 
 SET(HEADERS	
+    qpsapp.h
 	qps.h 
 	screenshot.h
 	pstable.h 
@@ -32,7 +42,16 @@ SET(HEADERS
 	infobar.h 
 	lookup.h 
 	details.h 
+    tablefield.h
 	command.h 
+    commandutils.h
+    commandmodel.h
+    commanddialog.h
+    checkboxdelegate.h
+    execwindow.h
+    watchcond.h
+    listmodel.h
+    watchdogdialog.h
 	misc.h  
 	trayicon.h 
 	htable.h 
@@ -46,6 +65,7 @@ set(UIS
     message.ui
 )
 
+set(RESOURCES "../qps.qrc")
 #-----------------------------------------------------------------------------
 # Translations
 #-----------------------------------------------------------------------------
@@ -69,22 +89,23 @@ lxqt_translate_desktop(DESKTOP_FILES
 #-----------------------------------------------------------------------------
 
 
-add_executable(${PROJECT}
+add_executable(${PROJECT_NAME}
     ${SOURCES}
     ${HEADERS}
     ${UIS}
     ${QM_FILES}
     ${QM_LOADER}
     ${DESKTOP_FILES}
+    ${RESOURCES}
 )
 
-target_link_libraries(${PROJECT}
+target_link_libraries(${PROJECT_NAME}
     Qt5::Widgets
     Qt5::X11Extras
     Qt5::DBus
 )
 
-install(TARGETS ${PROJECT} RUNTIME DESTINATION ${CMAKE_INSTALL_FULL_BINDIR})
+install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_FULL_BINDIR})
 install(FILES
     ${DESKTOP_FILES}
     DESTINATION "${CMAKE_INSTALL_DATAROOTDIR}/applications"
