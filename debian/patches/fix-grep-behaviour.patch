@@ -1,0 +1,23 @@
+Description: fix the new grep behaviour
+ No need to care about upstream, i fixed it in upstream some days ago
+Author: Alf Gaida <agaida@siduction.org>
+
+--- qps-1.10.16+20151210.orig/cmake/LXQtTranslateDesktop.cmake
++++ qps-1.10.16+20151210/cmake/LXQtTranslateDesktop.cmake
+@@ -71,13 +71,13 @@ function(lxqt_translate_desktop _RESULT)
+         if (_translations)
+             list(SORT _translations)
+             add_custom_command(OUTPUT ${_outFile}
+-                COMMAND grep -v "'#TRANSLATIONS_DIR='" ${_inFile} > ${_outFile}
+-                COMMAND grep -h ${_pattern} ${_translations} >> ${_outFile}
++                COMMAND grep -a -v "'#TRANSLATIONS_DIR='" ${_inFile} > ${_outFile}
++                COMMAND grep -a -h ${_pattern} ${_translations} >> ${_outFile}
+                 COMMENT "Generating ${_fileName}${_fileExt}"
+             )
+         else()
+             add_custom_command(OUTPUT ${_outFile}
+-                COMMAND grep -v "'#TRANSLATIONS_DIR='" ${_inFile} > ${_outFile}
++                COMMAND grep -a -v "'#TRANSLATIONS_DIR='" ${_inFile} > ${_outFile}
+                 COMMENT "Generating ${_fileName}${_fileExt}"
+             )
+         endif()
