@@ -1,3 +1,11 @@
+qps (1.10.16+20151210-3) unstable; urgency=medium
+
+  * Fixed Architecture - qps supports in the current state only
+    linux and solaris kernels#
+  * Bump Standards to 3.9.8, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 09 Jul 2016 11:28:10 +0200
+
 qps (1.10.16+20151210-2) unstable; urgency=medium
 
   * Bump Standards to 3.9.7
