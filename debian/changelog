@@ -1,3 +1,14 @@
+qps (1.10.16-29-g7e679db-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 1.10.16-29-g7e679db.
+  * Removed patches, applied upstream
+  * Fixed VCS fields, using plain /git/
+  * Fixed copyrights Format field, using https
+  * Exported LC_ALL=C.UTF-8 to prevent problems with reproducible builds
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 22 Jul 2016 18:47:51 +0200
+
 qps (1.10.16+20151210-3) unstable; urgency=medium
 
   * Fixed Architecture - qps supports in the current state only
