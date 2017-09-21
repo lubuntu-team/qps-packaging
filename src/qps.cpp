@@ -1,8 +1,26 @@
-// qps -- Qt-based visual process status monitor
-// This program is free software. See the file COPYING for details.
-// Author:  Mattias Engdegård, 1997-1999
-//          fasthyun@magicn.com 2005-2012
-//          daehyun.yang@gmail.com 2015-
+/*
+ * qps.cpp
+ * This file is part of qps -- Qt-based visual process status monitor
+ *
+ * Copyright 1997-1999 Mattias Engdegård
+ * Copyright 2005-2012 fasthyun@magicn.com
+ * Copyright 2015-     daehyun.yang@gmail.com
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ * MA 02110-1301, USA.
+ */
 
 // TODO & MEMO
 /*
@@ -11,9 +29,8 @@
  *   1. F_CMDLINE should be rightmost field
  *   2. F_PROCESSNAME shoud be leftmost field  and  NEVER removed!
  *
- *
- *
  */
+
 // . Memory Hole or Qt's string allocate bug?
 // . clipboard copy [CMDLINE,PID,USERNAME...]
 // . [klog] table cache.
@@ -238,9 +255,9 @@ Qps::Qps()
 
     connect(m_options, SIGNAL(aboutToShow()), SLOT(update_menu_status()));
 
-    QMenu *m_help = new QMenu("Help", this);
+    QMenu *m_help = new QMenu("&Help", this);
     // m_help->addAction("FAQ", this, SLOT(license()));
-    m_help->addAction(QIcon::fromTheme("help-about"), "Feedback", this,
+    m_help->addAction(QIcon::fromTheme("help-about"), "&About", this,
                       SLOT(about()));
 
     // menu = new QMenuBar(this);
@@ -1382,7 +1399,7 @@ void Qps::context_heading_menu(QPoint p, int col)
 
     if (init == 0)
     {
-        /*	#ifdef SHash	
+        /*	#ifdef SHash
 		SHash<int,Category *>::const_iterator it=procview->categories.begin();
 		QList<int> keys;
 		for ( ; it != procview->categories.end(); it++ )
@@ -2310,35 +2327,26 @@ void Qps::about()
                 "using Qt library ");
 
     str.append(qVersion());
-    // s.append(url);
-    str.append(""
+    str.append("<br><br>"
+               "<b>Source: </b><a href=\"https://github.com/QtDesktop/qps\">http://github.com/QtDesktop/qps/</a>"
                "<br>"
-               "<A "
-               "HREF=\"http://kldp.net/projects/qps\">http://kldp.net/projects/"
-               "qps</A>");
+               "<b>Bugtracker: </b><a href=\"https://github.com/QtDesktop/qps/issues\">https://github.com/QtDesktop/qps/issues</a>"
+               );
+
     label->setText(str);
 
     str = "";
-    str.append("<center><b> Bug, Complains, Opinion, Patch to </b></center>"
-               "<center><a href=\"mail://daehyun.yang@gmail.com\" > "
-               "daehyun.yang@gmail.com </a></center>"
-               "<br>"
-               "<center> Contributors </center>"
-               "<center><i>Olivier.Daudel@u-paris10.fr </i></center>"
-               "<center><i>jsanchez@todounix.homeip.net </i></center>"
-               "<center><i>\
-			Vince Schiavoni	(hlingler@verizon.net)\
-		</i></center>"
-               "<br>"
-               "<center>Original Qps by</center>"
-               "<center><i>"
-               "	Mattias Engdeg?rd\n" //"(f91-men@nada.kth.se)\n"
-               "</i></center>");
-
-    //     QPushButton *contribut = new QPushButton(tr("&More"));
-
-    // moreButton->setCheckable(true);
-    // moreButton->setAutoDefault(false);
+    str.append("<b>Original Qps by</b><br>"
+               "Mattias Engdegård (f91-men@nada.kth.se)<br><br>"
+               "<b>Contributors</b><br>"
+               "Olivier.Daudel@u-paris10.fr<br>"
+               "jsanchez@todounix.homeip.net <br>"
+               "daehyun.yang@gmail.com <br>"
+               "Luís Pereira (luis.artur.pereira@gmail.com)<br>"
+               "Alf Gaida (agaida@siduction.org)<br>"
+               "Paulo Lieuthier (paulolieuthier@gmail.com)<br>"
+               "Jerome Leclanche (jerome@leclan.ch)<br>"
+               );
 
     browser->setText(str);
 
