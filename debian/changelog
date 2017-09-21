@@ -1,11 +1,11 @@
-qps (1.10.17-1) UNRELEASED; urgency=medium
+qps (1.10.17-1) unstable; urgency=medium
 
   * Cherry-picking upstream-version 1.10.17.
   * Bumped Standards to 4.1.0 - no changes needed
   * Changed CMAKE_BUILD_TYPE to RelWithDebInfo
   * Bumped dephelper to >= 10 and compat to 10 - removed --parallel from rules
 
- -- Alf Gaida <agaida@siduction.org>  Fri, 22 Sep 2017 00:24:15 +0200
+ -- Alf Gaida <agaida@siduction.org>  Fri, 22 Sep 2017 00:41:35 +0200
 
 qps (1.10.16-29-g7e679db-1) unstable; urgency=medium
 
