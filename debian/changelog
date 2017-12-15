@@ -1,3 +1,11 @@
+qps (1.10.17-2) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.2
+  * Removed branch from VCS fields
+  * Removed debian/gbp.conf 
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 15 Dec 2017 17:08:38 +0100
+
 qps (1.10.17-1) unstable; urgency=medium
 
   * Cherry-picking upstream-version 1.10.17.
