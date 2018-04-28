@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qps
-Source: http://github.com/QtDesktop/qps
+Source: http://github.com/lxqt/qps
 
 Files: *
 Copyright: 1997-1999 Mattias Engdegård
@@ -35,7 +35,7 @@ Copyright: 2003  Justin Karneges
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2015-2016 Alf Gaida <agaida@siduction.org>
+Copyright: 2015-2018 Alf Gaida <agaida@siduction.org>
            2015-2016 ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 License: GPL-2.0+
 

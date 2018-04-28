@@ -1,8 +1,21 @@
+qps (1.10.17-3) unstable; urgency=medium
+
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Removed not needed cmake minimum version
+  * Bumped Standards to 4.1.4, no changes needed
+  * Changed VCS fields for salsa
+  * Changed Homepage, Source and watch to lxqt
+  * Bumped year in copyright
+  * Removed trailing whitespaces in changelog
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 19:04:42 +0200
+
 qps (1.10.17-2) unstable; urgency=medium
 
   * Bumped Standards to 4.1.2
   * Removed branch from VCS fields
-  * Removed debian/gbp.conf 
+  * Removed debian/gbp.conf
 
  -- Alf Gaida <agaida@siduction.org>  Fri, 15 Dec 2017 17:08:38 +0100
 
@@ -40,7 +53,7 @@ qps (1.10.16+20151210-2) unstable; urgency=medium
   * Secured VCS-Fields
   * Fix years in copyright
   * Add hardening=+all
-  * Fix new grep behaviour in LXQtTranslateDesktop.cmake 
+  * Fix new grep behaviour in LXQtTranslateDesktop.cmake
 
  -- Alf Gaida <agaida@siduction.org>  Thu, 25 Feb 2016 23:37:08 +0100
 
