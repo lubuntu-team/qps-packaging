@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="pl">
+<TS version="2.1" language="da">
 <context>
     <name>ControlBar</name>
     <message>
         <location filename="../misc.cpp" line="986"/>
         <source>Pause (Ctrl+Space)</source>
-        <translation>Pauzuj (Ctrl+Spacja)</translation>
+        <translation>Pause (Ctrl+Mellemrum)</translation>
     </message>
 </context>
 <context>
@@ -14,7 +14,7 @@
     <message>
         <location filename="../watchdog.ui" line="23"/>
         <source>Watchdog 0.1 alpha</source>
-        <translation>Watchdog 0.1 alpha</translation>
+        <translation>Watchdog 0.1 alfa</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="117"/>
@@ -24,79 +24,79 @@
     <message>
         <location filename="../watchdog.ui" line="162"/>
         <source>Select condition</source>
-        <translation>Wybierz warunek</translation>
+        <translation>Vælg betingelse</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="170"/>
         <source>labelDescrition</source>
-        <translation type="unfinished"></translation>
+        <translation>etiketbeskrivelse</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="193"/>
         <source>Enable</source>
-        <translation>Włącz</translation>
+        <translation>Aktivér</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="219"/>
         <source>process name</source>
-        <translation>nazwa procesu</translation>
+        <translation>procesnavn</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="229"/>
         <source>cpu</source>
-        <translation>procesor</translation>
+        <translation>cpu</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="248"/>
         <source>%</source>
-        <translation>%</translation>
+        <translation> %</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="280"/>
         <source>include already running process</source>
-        <translation>uwzględnij już uruchomiony proces</translation>
+        <translation>inkluder allerede kørende proces</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="309"/>
         <source>run command</source>
-        <translation>wykonaj polecenie</translation>
+        <translation>kør kommando</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="342"/>
         <source>show Message</source>
-        <translation>wyświetl wiadomość</translation>
+        <translation>vis meddelelse</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="367"/>
         <source>Help (Not yet. just concept)</source>
-        <translation>Pomoc (nie zaimplementowano jeszcze)</translation>
+        <translation>Hjælp (ikke endnu, kun et koncept)</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="394"/>
         <source>%p : pid
 %c : command</source>
-        <translation>%p : id procesu
-%c : polecenie</translation>
+        <translation>%p: pid
+%c: kommando</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="425"/>
         <source>New</source>
-        <translation>Nowy</translation>
+        <translation>Ny</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="432"/>
         <source>Add</source>
-        <translation>Dodaj</translation>
+        <translation>Tilføj</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="439"/>
         <source>Delete</source>
-        <translation>Usuń</translation>
+        <translation>Slet</translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="446"/>
         <source>Close</source>
-        <translation>Zamknij</translation>
+        <translation>Luk</translation>
     </message>
 </context>
 <context>
@@ -117,7 +117,7 @@
     <message>
         <location filename="../qps.cpp" line="351"/>
         <source>Detail</source>
-        <translation>Szczegół</translation>
+        <translation>Detalje</translation>
     </message>
 </context>
 <context>
@@ -125,47 +125,47 @@
     <message>
         <location filename="../screenshot.cpp" line="294"/>
         <source>/untitled.</source>
-        <translation>/bez tytułu.</translation>
+        <translation>/unavngivet.</translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="299"/>
         <source>Save As</source>
-        <translation>Zapisz jako</translation>
+        <translation>Gem som</translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="300"/>
         <source>%1 Files (*.%2);;All Files (*)</source>
-        <translation>%1 plików (*.%2);;Wszystkie pliki (*)</translation>
+        <translation>%1 filer (*.%2);;Alle filer (*)</translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="327"/>
         <source>Options</source>
-        <translation>Opcje</translation>
+        <translation>Valgmuligheder</translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="330"/>
         <source> s</source>
-        <translation> sek</translation>
+        <translation> s</translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="335"/>
         <source>Screenshot Delay:</source>
-        <translation>Opóźnienie wykonania zrzutu ekranu:</translation>
+        <translation>Forsinkelse for skærmbillede:</translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="337"/>
         <source>Hide This Window</source>
-        <translation>Ukryj to okno</translation>
+        <translation>Skjul vinduet</translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="349"/>
         <source>New Screenshot</source>
-        <translation>Nowy zrzut ekranu</translation>
+        <translation>Nyt skærmbillede</translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="350"/>
         <source>Quit</source>
-        <translation>Wyjdź</translation>
+        <translation>Afslut</translation>
     </message>
 </context>
 </TS>
