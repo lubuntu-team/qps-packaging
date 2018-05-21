@@ -1,3 +1,9 @@
+qps (1.10.18-1) unstable; urgency=medium
+
+  * Cherry-picking upstream-version 1.10.18.
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 21 May 2018 18:51:56 +0200
+
 qps (1.10.17-3) unstable; urgency=medium
 
   * Bumped compat to 11
