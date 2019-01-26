@@ -1,40 +1,31 @@
-cmake_minimum_required(VERSION 3.0.2 FATAL_ERROR)
-project(qps)
+cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
+# CMP0000: Call the cmake_minimum_required() command at the beginning of the top-level
+# CMakeLists.txt file even before calling the project() command.
+# The cmake_minimum_required(VERSION) command implicitly invokes the cmake_policy(VERSION)
+# command to specify that the current project code is written for the given range of CMake
+# versions.
+Project(qps)
 
 option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" OFF)
 
-# additional cmake files
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-
-if(NOT CMAKE_BUILD_TYPE)
-    set(CMAKE_BUILD_TYPE Release)
-endif()
-
 set(MAJOR_VERSION 1)
 set(MINOR_VERSION 10)
-set(PATCH_VERSION 18)
+set(PATCH_VERSION 19)
 set(QPS_VERSION_STRING ${MAJOR_VERSION}.${MINOR_VERSION}.${PATCH_VERSION})
 add_definitions(
     -DQPS_VERSION="${MAJOR_VERSION}.${MINOR_VERSION}.${PATCH_VERSION}"
-    -DQT_NO_FOREACH
 )
 
-# C++11 support
-include(CheckCXXCompilerFlag)
-CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
-CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
-if(COMPILER_SUPPORTS_CXX11)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-elseif(COMPILER_SUPPORTS_CXX0X)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
-else()
-    message(FATAL "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. C++11 support is required")
-endif()
-
-find_package(Qt5 5.7.1 REQUIRED COMPONENTS Widgets X11Extras DBus LinguistTools)
+# Minimum Versions
+set(LXQTBT_MINIMUM_VERSION "0.6.0")
+set(QT_MINIMUM_VERSION "5.7.1")
+find_package(Qt5 ${QT_MINIMUM_VERSION} REQUIRED COMPONENTS Widgets X11Extras DBus LinguistTools)
+find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 
 include(GNUInstallDirs)
-include(LXQtTranslateTs) # Although the name it doesn't depend on LXQt in any way
+include(LXQtPreventInSourceBuilds)
+include(LXQtCompilerSettings)
+include(LXQtTranslateTs)
 include(LXQtTranslateDesktop)
 include(Qt5TranslationLoader)
 
