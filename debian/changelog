@@ -1,3 +1,15 @@
+qps (1.10.19-1) unstable; urgency=medium
+
+  * Cherry-picking upstream-version 1.10.19.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Removed some deprecated files from d/copyright
+  * Added build dependency lxqt-build-tools (>= 0.6.0~)
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 14:05:17 +0100
+
 qps (1.10.18-1) unstable; urgency=medium
 
   * Cherry-picking upstream-version 1.10.18.

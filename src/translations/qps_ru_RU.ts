@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="pl_PL">
+<TS version="2.1" language="ru_RU">
 <context>
     <name>AllFields</name>
     <message>
@@ -187,12 +187,12 @@ exited with status </source>
     <message>
         <location filename="../commanddialog.cpp" line="113"/>
         <source>Delete</source>
-        <translation type="unfinished">Usuń</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../commanddialog.cpp" line="115"/>
         <source>Close</source>
-        <translation type="unfinished">Zamknij</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -230,7 +230,7 @@ exited with status </source>
     <message>
         <location filename="../misc.cpp" line="984"/>
         <source>Pause (Ctrl+Space)</source>
-        <translation>Pauzuj (Ctrl+Spacja)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -294,7 +294,7 @@ exited with status </source>
     <message>
         <location filename="../watchdog.ui" line="23"/>
         <source>Watchdog 0.1 alpha</source>
-        <translation>Watchdog 0.1 alpha</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="117"/>
@@ -304,7 +304,7 @@ exited with status </source>
     <message>
         <location filename="../watchdog.ui" line="162"/>
         <source>Select condition</source>
-        <translation>Wybierz warunek</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="170"/>
@@ -314,69 +314,68 @@ exited with status </source>
     <message>
         <location filename="../watchdog.ui" line="193"/>
         <source>Enable</source>
-        <translation>Włącz</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="219"/>
         <source>process name</source>
-        <translation>nazwa procesu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="229"/>
         <source>cpu</source>
-        <translation>procesor</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="248"/>
         <source>%</source>
-        <translation>%</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="280"/>
         <source>include already running process</source>
-        <translation>uwzględnij już uruchomiony proces</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="309"/>
         <source>run command</source>
-        <translation>wykonaj polecenie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="342"/>
         <source>show Message</source>
-        <translation>wyświetl wiadomość</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="367"/>
         <source>Help (Not yet. just concept)</source>
-        <translation>Pomoc (nie zaimplementowano jeszcze)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="394"/>
         <source>%p : pid
 %c : command</source>
-        <translation>%p : id procesu
-%c : polecenie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="425"/>
         <source>New</source>
-        <translation>Nowy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="432"/>
         <source>Add</source>
-        <translation>Dodaj</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="439"/>
         <source>Delete</source>
-        <translation>Usuń</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../watchdog.ui" line="446"/>
         <source>Close</source>
-        <translation>Zamknij</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -384,12 +383,12 @@ exited with status </source>
     <message>
         <location filename="../message.ui" line="13"/>
         <source>Qps</source>
-        <translation>Qps</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../message.ui" line="27"/>
         <source>Ok</source>
-        <translation>OK</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../execwindow.cpp" line="42"/>
@@ -404,7 +403,7 @@ exited with status </source>
     <message>
         <location filename="../execwindow.cpp" line="99"/>
         <source>Close</source>
-        <translation type="unfinished">Zamknij</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../execwindow.cpp" line="105"/>
@@ -432,7 +431,7 @@ exited with status </source>
     <message>
         <location filename="../fieldsel.cpp" line="68"/>
         <source>Close</source>
-        <translation type="unfinished">Zamknij</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -511,7 +510,7 @@ exited with status </source>
     <message>
         <location filename="../listmodel.cpp" line="68"/>
         <source>Enable</source>
-        <translation type="unfinished">Włącz</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1186,7 +1185,7 @@ exited with status </source>
     <message>
         <location filename="../qps.cpp" line="2229"/>
         <source>Quit</source>
-        <translation type="unfinished">Wyjdź</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1229,7 +1228,7 @@ exited with status </source>
     <message>
         <location filename="../qps.cpp" line="207"/>
         <source>Custom Fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Заданные поля</translation>
     </message>
     <message>
         <location filename="../qps.cpp" line="209"/>
@@ -1254,7 +1253,7 @@ exited with status </source>
     <message>
         <location filename="../qps.cpp" line="222"/>
         <source>Select Custom Fields...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Выбор заданных полей...</translation>
     </message>
     <message>
         <location filename="../qps.cpp" line="236"/>
@@ -1290,7 +1289,7 @@ exited with status </source>
     <message>
         <location filename="../qps.cpp" line="354"/>
         <source>Detail</source>
-        <translation>Szczegół</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qps.cpp" line="395"/>
@@ -1440,7 +1439,7 @@ exited with status </source>
     <message>
         <location filename="../qps.cpp" line="1210"/>
         <source>Quit</source>
-        <translation type="unfinished">Wyjdź</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qps.cpp" line="1590"/>
@@ -1556,47 +1555,47 @@ exited with status </source>
     <message>
         <location filename="../screenshot.cpp" line="294"/>
         <source>/untitled.</source>
-        <translation>/bez tytułu.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="299"/>
         <source>Save As</source>
-        <translation>Zapisz jako</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="300"/>
         <source>%1 Files (*.%2);;All Files (*)</source>
-        <translation>%1 plików (*.%2);;Wszystkie pliki (*)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="327"/>
         <source>Options</source>
-        <translation>Opcje</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="330"/>
         <source> s</source>
-        <translation> sek</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="335"/>
         <source>Screenshot Delay:</source>
-        <translation>Opóźnienie wykonania zrzutu ekranu:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="337"/>
         <source>Hide This Window</source>
-        <translation>Ukryj to okno</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="349"/>
         <source>New Screenshot</source>
-        <translation>Nowy zrzut ekranu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../screenshot.cpp" line="350"/>
         <source>Quit</source>
-        <translation>Wyjdź</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
