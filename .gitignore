@@ -1,0 +1,9 @@
+/debian/.debhelper/
+/debian/debhelper-build-stamp
+/debian/files
+/debian/*.log
+/debian/*substvars
+
+/debian/qps/
+
+/obj-x86_64-linux-gnu/
