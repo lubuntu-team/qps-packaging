@@ -1,6 +1,12 @@
+qps (1.10.20-1ubuntu1) disco; urgency=medium
+
+  * Lubuntuify the package.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 12:16:07 -0600
+
 qps (1.10.20-1) unstable; urgency=medium
 
-  * Cherry-picking upstream-version 1.10.20. 
+  * Cherry-picking upstream-version 1.10.20.
 
  -- Alf Gaida <agaida@siduction.org>  Mon, 25 Feb 2019 23:41:57 +0100
 
