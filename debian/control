@@ -4,14 +4,14 @@ XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debia
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Section: x11
 Priority: optional
-Build-Depends: cmake,
-               debhelper-compat (= 12),
-               libqt5x11extras5-dev,
+Build-Depends: debhelper-compat (= 12),
+               cmake,
                libxrender-dev,
+               libqt5x11extras5-dev,
                lxqt-build-tools (>= 0.6.0~),
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.3.0
+Standards-Version: 4.4.1
 Vcs-Browser: https://phab.lubuntu.me/source/qps/
 Vcs-Git: https://phab.lubuntu.me/source/qps.git
 XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/qps
@@ -20,6 +20,7 @@ Homepage: https://github.com/lxqt/qps
 
 Package: qps
 Architecture: linux-any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
 Description: Qt process manager
  Qt process manager ported to Qt5
