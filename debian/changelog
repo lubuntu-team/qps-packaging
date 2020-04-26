@@ -1,3 +1,10 @@
+qps (2.0.0-1ubuntu2) groovy; urgency=medium
+
+  * Bumped Standard-Version to 4.5.0, no changes needed
+  * Added liblxqt0-dev to build dependencies
+
+ -- apt-ghetto <apt-ghetto@lubuntu.me>  Sun, 26 Apr 2020 11:24:30 +0200
+
 qps (2.0.0-1ubuntu1) focal; urgency=medium
 
   * Merge from debian unstable. Remaining changes:
