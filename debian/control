@@ -6,7 +6,7 @@ Section: x11
 Priority: optional
 Build-Depends: debhelper-compat (= 12),
                cmake,
-               liblxqt0-dev (>= 0.14.2~),
+               liblxqt0-dev (>= 0.14.1~),
                libqt5x11extras5-dev,
                libxrender-dev,
                lxqt-build-tools (>= 0.6.0~),
