@@ -4,8 +4,8 @@ XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debia
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Section: x11
 Priority: optional
-Build-Depends: debhelper-compat (= 12),
-               cmake,
+Build-Depends: cmake,
+               debhelper-compat (= 12),
                liblxqt0-dev (>= 0.15.0),
                libqt5x11extras5-dev,
                libxrender-dev,
@@ -21,7 +21,6 @@ Homepage: https://github.com/lxqt/qps
 
 Package: qps
 Architecture: linux-any
-Depends: ${shlibs:Depends},
-         ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt process manager
  Qt process manager ported to Qt5
