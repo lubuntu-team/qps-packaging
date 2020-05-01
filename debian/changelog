@@ -1,6 +1,7 @@
 qps (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+    - Update upstream signing key.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 01 May 2020 00:02:11 -0500
 
