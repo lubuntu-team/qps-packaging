@@ -1,9 +1,14 @@
 qps (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream release.
     - Update upstream signing key.
     - Update LXQt build dependencies.
   * Run wrap-and-sort.
+
+  [ Dan Simmons ]
+  * Added libkf5windowsystem-dev to build dependendies.
+  * Remove tab characters from copyright.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 01 May 2020 00:02:11 -0500
 
