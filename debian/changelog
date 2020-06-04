@@ -1,4 +1,4 @@
-qps (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
+qps (2.1.0-0ubuntu1) groovy; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
@@ -10,7 +10,7 @@ qps (2.1.0-0ubuntu1) UNRELEASED; urgency=medium
   * Added libkf5windowsystem-dev to build dependendies.
   * Remove tab characters from copyright.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 01 May 2020 00:02:11 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 04 Jun 2020 14:40:16 -0500
 
 qps (2.0.0-1ubuntu2) groovy; urgency=medium
 
