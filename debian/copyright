@@ -114,11 +114,11 @@ License: LGPL-2.1+
 
 License: QPL-1.0
            THE Q PUBLIC LICENSE
-				   version 1.0
+                    version 1.0
  .
-		   Copyright (C) 1999-2000 Trolltech AS, Norway.
-		       Everyone is permitted to copy and
-		       distribute this license document.
+            Copyright (C) 1999-2000 Trolltech AS, Norway.
+               Everyone is permitted to copy and
+               distribute this license document.
  .
  The intent of this license is to establish freedom to share and change the
  software regulated by this license under the open source model.
@@ -130,7 +130,7 @@ License: QPL-1.0
  Software, use of third-party application programs based on the Software,
  and development of free software which uses the Software.
  .
-				 Granted Rights
+                  Granted Rights
  .
  1. You are granted the non-exclusive rights set forth in this license
     provided you agree to and comply with any and all conditions in this
@@ -197,7 +197,7 @@ License: QPL-1.0
         initial developer of the Software requests a copy of the items,
         then you must supply one.
  .
-			    Limitations of Liability
+                Limitations of Liability
  .
  In no event shall the initial developers or copyright holders be liable
  for any damages whatsoever, including - but not restricted to - lost
@@ -206,7 +206,7 @@ License: QPL-1.0
  of such damages, except to the extent invariable law, if any, provides
  otherwise.
  .
-			          No Warranty
+                      No Warranty
  .
  The Software and this license document are provided AS IS with NO WARRANTY
  OF ANY KIND, INCLUDING THE WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS
