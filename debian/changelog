@@ -1,3 +1,19 @@
+qps (2.2.0-1ubuntu1) hirsute; urgency=medium
+
+  * Merge from Debian unstable. Remaining changes:
+    - Bump debhelper-compat (= 13).
+    - Update Standards-version to 4.5.1, no changes needed.
+
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 21 Feb 2021 22:14:05 -0500
+
+qps (2.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control: update build-deps.
+  * debian/copyright: reformatted to fit DEP-5.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 18:36:35 +0800
+
 qps (2.1.0-0ubuntu1) groovy; urgency=medium
 
   [ Simon Quigley ]
@@ -137,3 +153,4 @@ qps (1.10.16+20150823-1) unstable; urgency=medium
   * Initial Release (Closes: #795697)
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 06 Sep 2015 02:17:51 +0200
+
