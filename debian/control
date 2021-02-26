@@ -4,16 +4,16 @@ XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debia
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 Section: x11
 Priority: optional
-Build-Depends: cmake,
-               debhelper-compat (= 12),
+Build-Depends: debhelper-compat (= 13),
+               cmake,
                libkf5windowsystem-dev (>= 5.36.0),
-               liblxqt0-dev (>= 0.15.0),
-               libqt5x11extras5-dev,
+               liblxqt0-dev (>= 0.16.0~),
                libxrender-dev,
-               lxqt-build-tools (>= 0.7.0),
+               libqt5x11extras5-dev,
+               lxqt-build-tools (>= 0.8.0~),
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Vcs-Browser: https://phab.lubuntu.me/source/qps/
 Vcs-Git: https://phab.lubuntu.me/source/qps.git
 XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/qps
