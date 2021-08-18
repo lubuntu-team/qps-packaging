@@ -7,10 +7,10 @@ Priority: optional
 Build-Depends: debhelper-compat (= 13),
                cmake,
                libkf5windowsystem-dev (>= 5.36.0),
-               liblxqt0-dev (>= 0.16.0~),
+               liblxqt0-dev (>= 0.17.0),
                libxrender-dev,
                libqt5x11extras5-dev,
-               lxqt-build-tools (>= 0.8.0~),
+               lxqt-build-tools (>= 0.9.0),
                qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 4.5.1

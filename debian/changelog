@@ -1,3 +1,13 @@
+qps (2.3.0-0ubuntu1) impish; urgency=medium
+
+  * New upstream release 2.3.0
+  * Update debian control
+    - Use liblxqt0-dev 0.17.0
+    - Use lxqt-build-tools 0.9.0
+  * Update debian/copyright
+
+ -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 18 Aug 2021 16:30:22 +0200
+
 qps (2.2.0-1ubuntu1) hirsute; urgency=medium
 
   * Merge from Debian unstable. Remaining changes:
