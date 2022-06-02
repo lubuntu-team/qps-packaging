@@ -1,9 +1,9 @@
-qps (2.5.0-0ubuntu1) UNRELEASED; urgency=medium
+qps (2.5.0-0ubuntu1) kinetic; urgency=medium
 
   * New upstream release.
   * Bump build dependencies.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 02 Jun 2022 14:22:56 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 02 Jun 2022 14:26:27 -0500
 
 qps (2.3.0-0ubuntu1) impish; urgency=medium
 
