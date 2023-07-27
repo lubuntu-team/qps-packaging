@@ -1,27 +1,42 @@
-qps (2.5.0-0ubuntu1) kinetic; urgency=medium
+qps (2.6.0-1) unstable; urgency=medium
 
   * New upstream release.
-  * Bump build dependencies.
+  * Bump Standards-Version to 4.6.2:
+    * Add "Rules-Requires-Root: no" in d/control.
+  * Remove unnecessary -Wl,--as-needed in d/rules
+  * Update d/watch for GitHub.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 02 Jun 2022 14:26:27 -0500
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 12:32:58 +0800
 
-qps (2.3.0-0ubuntu1) impish; urgency=medium
+qps (2.5.0-2) unstable; urgency=medium
 
-  * New upstream release 2.3.0
-  * Update debian control
-    - Use liblxqt0-dev 0.17.0
-    - Use lxqt-build-tools 0.9.0
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 19 Nov 2022 09:45:51 +0800
+
+qps (2.5.0-1) experimental; urgency=medium
+
+  [ Andrew Lee (李健秋) ]
+  * Add debian/salsa-ci.yml file.
+  * Update debian/upstream/signing-key.asc.
+  * New upstream version 2.4.0
+
+  [ suman rajan ]
+  * New upstream version 2.5.0
+  * debian/upstream/metadata: Fixed Repository-Browse field
+  * debian/control: Bumped version for liblxqt1-dev
+  * debian/salsa-ci.yml: Added release for experimental
+  * debian/copyright: Fix license inconsistencies
+
+ -- suman rajan <suman@cryptolab.net>  Sat, 16 Jul 2022 17:56:21 +0200
+
+qps (2.4.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bumped Standards-Version to 4.6.0, no changes needed
   * Update debian/copyright
 
- -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 18 Aug 2021 16:30:22 +0200
-
-qps (2.2.0-1ubuntu1) hirsute; urgency=medium
-
-  * Merge from Debian unstable. Remaining changes:
-    - Bump debhelper-compat (= 13).
-    - Update Standards-version to 4.5.1, no changes needed.
-
- -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 21 Feb 2021 22:14:05 -0500
+ -- S. 7 <severusseptimius7@gmail.com>  Thu, 25 Nov 2021 18:19:55 +0200
 
 qps (2.2.0-1) unstable; urgency=medium
 
@@ -31,34 +46,6 @@ qps (2.2.0-1) unstable; urgency=medium
 
  -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 18:36:35 +0800
 
-qps (2.1.0-0ubuntu1) groovy; urgency=medium
-
-  [ Simon Quigley ]
-  * New upstream release.
-    - Update upstream signing key.
-    - Update LXQt build dependencies.
-  * Run wrap-and-sort.
-
-  [ Dan Simmons ]
-  * Added libkf5windowsystem-dev to build dependendies.
-  * Remove tab characters from copyright.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 04 Jun 2020 14:40:16 -0500
-
-qps (2.0.0-1ubuntu2) groovy; urgency=medium
-
-  * Bumped Standard-Version to 4.5.0, no changes needed
-  * Added liblxqt0-dev to build dependencies
-
- -- apt-ghetto <apt-ghetto@lubuntu.me>  Sun, 26 Apr 2020 11:24:30 +0200
-
-qps (2.0.0-1ubuntu1) focal; urgency=medium
-
-  * Merge from debian unstable. Remaining changes:
-    - Lubuntuify the package.
-
- -- Rik Mills <rikmills@kde.org>  Thu, 23 Jan 2020 18:06:16 +0000
-
 qps (2.0.0-1) unstable; urgency=medium
 
   * New upstream version 2.0.0
@@ -66,12 +53,6 @@ qps (2.0.0-1) unstable; urgency=medium
   * Bumped Standards-Version to 4.4.1, no changes needed
 
  -- Alf Gaida <agaida@siduction.org>  Tue, 08 Oct 2019 20:56:07 +0200
-
-qps (1.10.20-1ubuntu1) disco; urgency=medium
-
-  * Lubuntuify the package.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 12:16:07 -0600
 
 qps (1.10.20-1) unstable; urgency=medium
 
@@ -170,4 +151,3 @@ qps (1.10.16+20150823-1) unstable; urgency=medium
   * Initial Release (Closes: #795697)
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 06 Sep 2015 02:17:51 +0200
-

@@ -6,19 +6,18 @@ Files: *
 Copyright: 1997-1999 Mattias Engdegård
 License: GPL-2.0+
 
-Files: src/global.h
-       src/misc.cpp
-       src/misc.h
-       src/proc.cpp
-       src/qps.cpp
-       src/stable.h
-Copyright: 1997-1999, Mattias Engdegård
-           2005-2012, fasthyun@magicn.com
-           2014-2015, Dae Hyun Yang <daehyun.yang@gmail.com>
-           2015,      Paulo Lieuthier <paulolieuthier@gmail.com>
-                      Olivier Daudel
-           2015,      Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
-           2012-2014, Andriy Grytsenko (LStranger) <andrej@rep.kiev.ua>
+Files: src/proc.cpp
+Copyright: 1997-1999 Mattias Engdegård
+           2005      José Luis Sánchez
+           2012-2014 Andriy Grytsenko (LStranger) <andrej@rep.kiev.ua>
+           2015      Hong Jen Yee (PCMan) <pcman.tw@gmail.com>
+                     Olivier Daudel
+License: GPL-2.0+
+
+Files: src/qps.cpp
+Copyright: 1997-1999 Mattias Engdegård
+           2005-2012 fasthyun@magicn.com
+           2015-     daehyun.yang@gmail.com
 License: GPL-2.0+
 
 Files: src/qttableview.*
@@ -26,13 +25,12 @@ Copyright: 1992-2000 Trolltech AS
 License: GPL-2.0 or QPL-1.0
 
 Files: src/trayicon.*
-Copyright: 2003  Justin Karneges
+Copyright: 2003 Justin Karneges
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2021,      Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
-           2015-2019, Alf Gaida <agaida@siduction.org>
-           2015-2016, ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+Copyright: 2015-2019 Alf Gaida <agaida@siduction.org>
+           2015-2023 ChangZhuo Chen (陳昌倬) <czchen@debian.org>
 License: GPL-2.0+
 
 License: GPL-2.0
