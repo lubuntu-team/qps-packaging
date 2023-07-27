@@ -1,3 +1,9 @@
+qps (2.7.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 27 Jul 2023 16:56:41 -0500
+
 qps (2.6.0-1) unstable; urgency=medium
 
   * New upstream release.
