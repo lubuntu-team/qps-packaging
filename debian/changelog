@@ -1,10 +1,10 @@
-qps (2.7.0-0ubuntu1) UNRELEASED; urgency=medium
+qps (2.7.0-0ubuntu1) mantic; urgency=medium
 
   * New upstream release.
   * Bump build dependencies.
   * Lubuntuify package.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 27 Jul 2023 16:56:41 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 03 Aug 2023 10:43:40 -0500
 
 qps (2.6.0-1) unstable; urgency=medium
 
