@@ -2,8 +2,8 @@ qps (2.8.0-0ubuntu1) noble; urgency=medium
 
   * New upstream release.
   * Updated copyright file.
-  * Bump build dependency versions.
-  * Lubuntuify watch file.
+  * Bumped build dependency versions.
+  * Lubuntuified watch file.
   * Ran wrap-and-sort.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 12 Nov 2023 16:54:48 -0600
