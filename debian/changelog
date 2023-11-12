@@ -1,8 +1,18 @@
-qps (2.7.0-0ubuntu1~ppa1) jammy; urgency=medium
+qps (2.8.0-0ubuntu1~ppa1) jammy; urgency=medium
 
   * Backport to Jammy.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 11 Aug 2023 10:47:33 -0500
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 12 Nov 2023 17:22:45 -0600
+
+qps (2.8.0-0ubuntu1) noble; urgency=medium
+
+  * New upstream release.
+  * Updated copyright file.
+  * Bumped build dependency versions.
+  * Lubuntuified watch file.
+  * Ran wrap-and-sort.
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 12 Nov 2023 16:54:48 -0600
 
 qps (2.7.0-0ubuntu1) mantic; urgency=medium
 
