@@ -4,6 +4,7 @@ Source: https://github.com/lxqt/qps
 
 Files: *
 Copyright: 1997-1999 Mattias Engdegård
+                2024 LXQt team
 License: GPL-2.0+
 
 Files: src/proc.cpp
@@ -35,6 +36,7 @@ License: CC-BY-4.0
 Files: debian/*
 Copyright: 2015-2019 Alf Gaida <agaida@siduction.org>
            2015-2023 ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+                2024 Aaron Rainbolt <arraybolt3@ubuntu.com>
 License: GPL-2.0+
 
 License: GPL-2.0

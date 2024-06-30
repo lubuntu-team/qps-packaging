@@ -1,6 +1,7 @@
 qps (2.9.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update copyright file.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sat, 29 Jun 2024 21:09:46 -0500
 
