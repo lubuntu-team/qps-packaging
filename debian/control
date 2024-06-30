@@ -16,7 +16,7 @@ Build-Depends: cmake,
                lxqt-build-tools (>= 0.13.0),
                qttools5-dev,
                qttools5-dev-tools
-Standards-Version: 4.6.2
+Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qps-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qps-packaging.git
 XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/qps
