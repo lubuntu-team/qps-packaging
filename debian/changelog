@@ -1,11 +1,11 @@
-qps (2.9.0-0ubuntu1~ppa1) oracular; urgency=medium
+qps (2.9.0-0ubuntu1) oracular; urgency=medium
 
   * New upstream release.
   * Update copyright file.
   * Bump Standards-Version to 4.7.0, no changes necessary.
   * Adjust dependencies.
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sat, 29 Jun 2024 21:09:46 -0500
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 15 Aug 2024 16:52:16 -0500
 
 qps (2.8.0-0ubuntu1) noble; urgency=medium
 
