@@ -10,9 +10,9 @@ Priority: optional
 Build-Depends: cmake,
                debhelper-compat (= 13),
                libkf6windowsystem-dev,
-               liblxqt2-dev (>= 2.0.0),
+               liblxqt2-dev (>= 2.1.0),
                libxrender-dev,
-               lxqt-build-tools (>= 2.0.0)
+               lxqt-build-tools (>= 2.1.0)
 Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qps-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qps-packaging.git
