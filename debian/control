@@ -1,6 +1,6 @@
 Source: qps
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
 Uploaders: Alf Gaida <agaida@siduction.org>,
            ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>,
@@ -16,8 +16,8 @@ Build-Depends: cmake,
 Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qps-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qps-packaging.git
-XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/qps
-XS-Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/qps.git
+Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/qps
+Debian-Vcs-Git: https://salsa.debian.org/lxqt-team/qps.git
 Homepage: https://github.com/lxqt/qps
 Rules-Requires-Root: no
 
@@ -25,4 +25,8 @@ Package: qps
 Architecture: linux-any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt process manager
- Qt process manager ported to Qt5
+ qps is a monitor that displays the status of the processes currently in
+ existence, much like top or ps.
+ .
+ The user interface uses the Qt toolkit, and most operations should be fairly
+ intuitive.
