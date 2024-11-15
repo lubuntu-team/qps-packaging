@@ -1,9 +1,9 @@
-qps (2.10.0-0ubuntu1) UNRELEASED; urgency=medium
+qps (2.10.0-0ubuntu1) plucky; urgency=medium
 
   * New upstream release.
     - Bump upstream dependencies.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 05 Nov 2024 19:40:35 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 15 Nov 2024 15:33:37 -0600
 
 qps (2.9.0-0ubuntu1) oracular; urgency=medium
 
