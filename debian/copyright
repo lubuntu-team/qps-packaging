@@ -37,6 +37,7 @@ Files: debian/*
 Copyright: 2015-2019 Alf Gaida <agaida@siduction.org>
            2015-2023 ChangZhuo Chen (陳昌倬) <czchen@debian.org>
                 2024 Aaron Rainbolt <arraybolt3@ubuntu.com>
+                2025 Simon Quigley <tsimonq2@ubuntu.com>
 License: GPL-2.0+
 
 License: GPL-2.0
