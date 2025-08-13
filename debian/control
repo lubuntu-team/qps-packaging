@@ -7,8 +7,8 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            suman rajan <suman@cryptolab.net>
 Section: x11
 Priority: optional
-Build-Depends: debhelper-compat (= 13),
-               cmake,
+Build-Depends: cmake,
+               debhelper-compat (= 13),
                libkf6windowsystem-dev,
                liblxqt2-dev (>= 2.2.0),
                libxrender-dev,
