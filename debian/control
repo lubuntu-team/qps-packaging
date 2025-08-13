@@ -13,7 +13,7 @@ Build-Depends: debhelper-compat (= 13),
                liblxqt2-dev (>= 2.1.0),
                libxrender-dev,
                lxqt-build-tools (>= 2.1.0)
-Standards-Version: 4.7.1
+Standards-Version: 4.7.2
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qps-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qps-packaging.git
 Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/qps
