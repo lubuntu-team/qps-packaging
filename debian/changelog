@@ -1,6 +1,7 @@
 qps (2.11.1-0ubuntu1) questing; urgency=medium
 
   * New upstream release.
+  * Update copyright file.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 13 Aug 2025 12:12:58 -0500
 
