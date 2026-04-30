@@ -9,9 +9,9 @@ Section: x11
 Build-Depends: cmake,
                debhelper-compat (= 13),
                libkf6windowsystem-dev,
-               liblxqt2-dev (>= 2.3.0),
+               liblxqt2-dev (>= 2.4.0),
                libxrender-dev,
-               lxqt-build-tools (>= 2.3.0)
+               lxqt-build-tools (>= 2.4.0)
 Standards-Version: 4.7.4
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qps-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qps-packaging.git
