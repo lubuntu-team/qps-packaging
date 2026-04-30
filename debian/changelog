@@ -1,4 +1,4 @@
-qps (2.13.0-0ubuntu1) UNRELEASED; urgency=medium
+qps (2.13.0-0ubuntu1) stonking; urgency=medium
 
   * New upstream release.
     - Update build dependencies.
@@ -6,7 +6,7 @@ qps (2.13.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update Standards-Version to 4.7.4, dropping Priority: optional.
   * Update the copyright file.
 
- -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 14:51:05 -0500
+ -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 16:14:56 -0500
 
 qps (2.12.0-0ubuntu1) resolute; urgency=medium
 
