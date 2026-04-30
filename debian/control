@@ -6,14 +6,13 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>,
            suman rajan <suman@cryptolab.net>
 Section: x11
-Priority: optional
 Build-Depends: cmake,
                debhelper-compat (= 13),
                libkf6windowsystem-dev,
                liblxqt2-dev (>= 2.3.0),
                libxrender-dev,
                lxqt-build-tools (>= 2.3.0)
-Standards-Version: 4.7.3
+Standards-Version: 4.7.4
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qps-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qps-packaging.git
 Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/qps
