@@ -4,7 +4,7 @@ Source: https://github.com/lxqt/qps
 
 Files: *
 Copyright: 1997-1999 Mattias Engdegård
-           2024-2025 LXQt team
+           2024-2026 LXQt team
 License: GPL-2.0+
 
 Files: src/proc.cpp
