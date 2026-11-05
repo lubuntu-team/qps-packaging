@@ -6,8 +6,9 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>,
            suman rajan <suman@cryptolab.net>
 Section: x11
-Build-Depends: cmake,
-               debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 14),
+               dh-sequence-single-binary,
+               cmake,
                libkf6windowsystem-dev,
                liblxqt2-dev (>= 2.5.0),
                libxrender-dev,
@@ -21,7 +22,6 @@ Homepage: https://github.com/lxqt/qps
 
 Package: qps
 Architecture: linux-any
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt process manager
  qps is a monitor that displays the status of the processes currently in
  existence, much like top or ps.
